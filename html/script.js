@@ -4,11 +4,13 @@ var anim;
 var timer;
 
 // 初期化処理
+// image.png と background.png を同階層ディレクトリにおいて下さい。
+// Please put image.png and background.png in the same level directory.
 function initial(){
     canvas = document.querySelector("#canvas");
 
     img = new Image();
-    img.src = "tarkov.png";
+    img.src = "image.png";
     bkimg = new Image();
     bkimg.src = "background.png";
     bkimg.onload = function(){
