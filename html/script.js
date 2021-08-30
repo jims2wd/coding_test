@@ -8,7 +8,7 @@ function initial(){
     canvas = document.querySelector("#canvas");
 
     img = new Image();
-    img.src = "tarkov.png";
+    img.src = "image.png";
     bkimg = new Image();
     bkimg.src = "background.png";
     bkimg.onload = function(){
